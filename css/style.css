@@ -1,30 +1,259 @@
 body {
+    margin: 0;
     font-family: 'Playfair Display', serif;
     font-size: 14px;
     color: #626262;
 }
 
 
-/* NAV
-=================*/
-
-.navbar-brand {
-    margin: 50px;
+.navbar {
+    margin-top: 50px;
+}
+header .navbar-brand {
     font-family: 'Inconsolata', monospace;
     font-size: 30px;
     color: #000;
+    text-transform: uppercase;
 }
 
-/* font-family: 'Inconsolata', monospace;
-font-family: 'Playfair Display', serif;
-font-family: 'Ubuntu', sans-serif; */
+
+header .nav-item {
+    padding-right: 86px;
+
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #626262;
+    text-transform: uppercase;
+}
+
+header .nav-item:last-child {
+    padding-right: 0;
+}
+
+.slider {
+    margin-bottom: 50px;
+}
+
+.post {
+    margin-bottom: 100px;
+}
+
+.container--post {
+    max-width: 1140px;
+    padding: 0 50px;
+}
+
+.post__linkCategory {
+    padding-bottom: 15px;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.post__title {
+    padding-bottom: 25px;
+
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #626262;
+}
+
+.post__text {
+    padding-bottom: 35px;
+
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #626262;
+}
+
+.post__link {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.post__linkCategory__ref,
+.post__link__ref {
+    text-decoration: none;
+    color: #B4AD9E;
+
+    cursor: pointer;
+}
+
+.post__linkCategory__ref:hover,
+.post__link__ref:hover {
+    color: #626262;
+}
+
+.container--row {
+    max-width: 900px;
+}
+.row {
+    justify-content: space-between;
+}
+.card {
+    padding-bottom: 100px;
+    padding-right: 20px;
+    border: none;
+}
 
 
+.card-body {
+    padding: 20px 0 0 0;
+}
+
+.card-img-top {
+    max-width: 400px;
+    max-height: 260px;
+}
 
 
+.btn-outline-secondary {
+    margin-bottom: 50px;
+    padding: 15px 30px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #626262;
+    border: 1px solid #626262;
+    border-radius: 0;
+}
+
+.load-more span {
+    display: none;
+}
+
+.email {
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+form {
+    padding: 65px 0;
+}
+
+.email__title {
+    padding-bottom: 60px;
+
+    font-family: 'Playfair Display', serif;
+    color: #333;
+    font-size: 30px;
+}
+
+.form-group {
+}
+
+.form-control {
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #000;
+    border-radius: 0;
+}
+
+.btn-primary {
+    font-size: 32px;
+    background-color: transparent;
+    border: 0;
+    color: #707070;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    color: #333;
+}
+
+footer {
+    background-color: #f0f0f0;
+}
+
+.d-flex {
+    padding: 37px 0;
+}
+
+.footer__text {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+
+.footer__text--1 {
+    padding-right: 16px;
+}
+
+.footer__right .fab {
+    padding-right: 17px;
+    width: 8px;
+    height: 14px;
+    color: #626262;
+}
+
+@media (max-width: 1200px) {
+    .container--post {
+    max-width: 990px;
+    }
+}
+@media (max-width: 990px) {
+    .container--post {
+    max-width: 770px;
+    }
+    form {
+        padding: 20px 0;
+    }
+    .email__title {
+        padding-bottom: 25px;
+    }
+    .d-flex {
+        padding: 0 0 20px 0;
+    }
+    .form-group {
+        margin: 0;
+    }
+    .btn-outline-secondary {
+        margin-bottom: 25px;
+    }
+    .card {
+        padding-bottom: 25px;
+    }
+    .post {
+        margin-bottom: 25px;
+    }
+    .navbar {
+        margin-top: 15px;
+    }
+    .card-img-top {
+        max-height: 230px;
+    }
+}
 
 
+@media (max-width: 770px) {
+    .container--post {
+        max-width: 570px;
+        padding: 0;
+    }
+    .card {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+}
 
+@media (max-width: 575px) {
+    .container--post {
+    max-width: 440px;
+        padding: 10px 15px;
+    }
+
+}
+
+@media (max-width: 440px) {
+
+}
 
 
 
