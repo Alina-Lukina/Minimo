@@ -237,6 +237,7 @@ footer {
         padding: 0;
     }
     .card {
+        display: block;
         width: 100%;
         justify-content: center;
         text-align: center;
@@ -248,7 +249,26 @@ footer {
     max-width: 440px;
         padding: 10px 15px;
     }
-
+    .post__title {
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+    .post__text {
+        padding-bottom: 10px;
+    }
+    .navbar {
+        margin-top: 0;
+    }
+    .slider {
+        margin-bottom: 10px;
+    }
+    .btn-outline-secondary {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .email__title {
+        font-size: 17px;
+    }
 }
 
 @media (max-width: 440px) {
